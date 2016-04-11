@@ -52,7 +52,7 @@ var exports = function(app, db) {
     app.post("/contributions", isLoggedIn, contributionsHandler.handleContributionsUpdate);
 
 
-    /*************** SECURITY ISSUE ****************
+    /*************** SECURITY ISSUE (FOUND) ****************
      ** The benefits page is only visible to      **
      ** the administrator. However, is there      **
      ** anything here preventing other users from **

@@ -18,7 +18,7 @@ function ContributionsHandler(db) {
     };
 
     this.handleContributionsUpdate = function(req, res, next) {
-        /*************** SECURITY ISSUE ****************
+        /*************** SECURITY ISSUE (FOUND) ****************
          ** What is bad about using eval() to parse   **
          ** user input here?                          **
          ***********************************************/

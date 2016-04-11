@@ -7,8 +7,8 @@ function AllocationsHandler(db) {
 
 
     this.displayAllocations = function(req, res, next) {
-        //FOUND
-        /*************** SECURITY ISSUE ****************
+
+        /*************** SECURITY ISSUE (FOUND) ****************
          ** 'allocations' is a page that requires     **
          ** a user to be logged in to access.         **
          ** As you can see, accessing this page is    **
